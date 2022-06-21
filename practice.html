@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="praactice.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+
+        <body>
+<div class="contents">
+
+       
+       
+        <div id="navLinks">
+      <!--meta logo-->
+     
+      
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo">
+          <img src="oculist.png" alt="" width="2%" class="img">
+          <h1>Metaculist</h1>
+        </div>
+        <div class="menu-btn" id="menuBtn">
+          <span><i class="fa fa-bars" id="menu"></i></span>
+         
+        </div>
+        <script>
+          var menuBtn = document.getElementById("menuBtn")
+          var navLinks = document.getElementById("navLinks")
+          var menu = document.getElementById("menu")
+          navLinks.style.right="-250px";
+          
+          menuBtn.onclick = function(){
+            if(navLinks.style.right=="-250px") {
+              navLinks.style.right="0";
+            }
+            else{
+              navLinks.style.right="-250px";
+            }
+          }
+        </script>
+     <div class="contents-area">
+     <div class="text-box">
+    <h1>See the world <br> through your eyes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, <br>  adipisicing elit. Accusantium quasi et rem <br> temporibus illum</p>
+  <button class="btn1"><a href="#" > Explore Now</a></button>
+  <br>
+  <button class="btn2"><a href="#"> Play Now</a></button>
+  
+   </div>
+   </div>
+</div> 
+        </body>
+        
+      
+        </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
